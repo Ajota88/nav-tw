@@ -6,7 +6,7 @@ const Header = () => {
     { name: "NOSOTROS", link: "#nosotros" },
     { name: "SERVICIOS", link: "#servicios" },
     { name: "SOCIOS", link: "#socios" },
-    { name: "CONTÁCTANOS", link: "/" },
+    { name: "CONTÁCTANOS", link: "#contacto" },
   ];
   let [open, setOpen] = useState(false);
 
