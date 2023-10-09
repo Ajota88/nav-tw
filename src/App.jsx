@@ -4,6 +4,7 @@ import Socios from "./components/Socios";
 import Servicios from "./components/Servicios";
 import Nosotros from "./components/Nosotros";
 import Footer from "./components/Footer";
+import Contacto from "./components/Contacto";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Nosotros />
       <Socios />
       <Servicios />
+      <Contacto />
       <Footer />
     </main>
   );
