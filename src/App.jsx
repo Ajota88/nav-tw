@@ -3,6 +3,7 @@ import Carousel from "./components/Carrusel";
 import Socios from "./components/Socios";
 import Servicios from "./components/Servicios";
 import Nosotros from "./components/Nosotros";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Nosotros />
       <Socios />
       <Servicios />
+      <Footer />
     </main>
   );
 };
