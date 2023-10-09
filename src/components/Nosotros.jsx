@@ -2,7 +2,10 @@ import heroImg from "../assets/hero-img.jpg";
 
 const Nosotros = () => {
   return (
-    <section className="flex justify-between items-center px-4 py-8">
+    <section
+      className="flex justify-between items-center px-6 py-10"
+      id="nosotros"
+    >
       <div className="flex-1">
         <h2 className="text-2xl ">Nosotros</h2>
         <p>

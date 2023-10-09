@@ -8,18 +8,10 @@ const App = () => {
   return (
     <main>
       <Navbar />
-      <div className="relative">
-        <Carousel />
-      </div>
-      <div id="nosotros" className="py-10 px-4">
-        <Nosotros />
-      </div>
-      <div id="socios" className="py-10 px-4">
-        <Socios />
-      </div>
-      <div className="py-10 px-4" id="servicios">
-        <Servicios />
-      </div>
+      <Carousel />
+      <Nosotros />
+      <Socios />
+      <Servicios />
     </main>
   );
 };

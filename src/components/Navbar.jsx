@@ -11,8 +11,8 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full ">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+    <div className="w-full px-2 py-4 shadow-md">
+      <div className="md:flex items-center justify-between bg-white">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <span>LOGO</span>
@@ -44,7 +44,6 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        {/* button */}
       </div>
     </div>
   );
